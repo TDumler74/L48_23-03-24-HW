@@ -24,7 +24,9 @@ public class Main {
             addressList.add((Address) person1.addresses);
         }
         System.out.println(addressList);
-    }
+
+
+     }
 //[Person {John {Berliner Str.1}}, Person {Marie {Dresdener Str.2}}, Person {Peter {Bielefelder Str.10}}, Person {Claudia {Bielefelder Str.10}}]
 
 //[{Berliner Str.1}, {Dresdener Str.2}, {Bielefelder Str.10}, {Bielefelder Str.10}]

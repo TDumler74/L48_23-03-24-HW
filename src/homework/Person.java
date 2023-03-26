@@ -15,7 +15,6 @@ public class Person {
         this.addresses = addresses;
     }
 
-
     public String getName() {
         return name;
     }
@@ -24,15 +23,9 @@ public class Person {
 
         return getAddresses(persons);
     }
-
-    public boolean compareTo(Address o) {
-        return o.street.equals(o);
-    }
-
-
     @Override
     public String toString() {
-        return "Person {" + name + ": " + addresses + '}';
+        return "{" + name + ": " + addresses + '}';
     }
 
 }
