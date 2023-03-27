@@ -19,11 +19,14 @@ public class Main {
 
         System.out.println(person);
         System.out.println();
+
         List<Address>addressList=new ArrayList<>();
         for (Person person1:person){
             addressList.add((Address) person1.addresses);
         }
         System.out.println(addressList);
+
+
 
 
      }
