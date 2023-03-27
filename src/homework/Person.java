@@ -19,6 +19,11 @@ public class Person {
         return name;
     }
 
+    public Address getAddresses() {
+
+        return addresses;
+    }
+
     public List<Address> getAddresses(List<Address> persons) {
 
         return getAddresses(persons);
