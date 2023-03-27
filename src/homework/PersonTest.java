@@ -41,7 +41,8 @@ class PersonTest {
         for (Person person : people) {
             addressList.add((Address) person.addresses);
         }
-
+//Тема unit как то не зашла, не понимаю как сопоставить всё к друг другу
+        //Теорию поняла, но практически не понятно
     }
 
 }
